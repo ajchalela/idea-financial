@@ -1,0 +1,61 @@
+#mainContent {
+  display: flex;
+  flex-direction: column;
+}
+
+#valuesContainer {
+  display: flex;
+  flex-direction: row;
+  padding-bottom: 20px;
+}
+
+mat-card {
+  display: inline-block;
+}
+
+
+button {
+  color: white;
+  background: green;
+}
+
+#btnContainer {
+  padding: 15px;
+  padding-top: 0;
+  padding-bottom: 0;
+  margin-left: auto;
+}
+
+::ng-deep .mat-form-field-underline {
+  background-color: transparent !important;
+}
+
+::ng-deep .mat-form-field-label {
+  top: 60px !important;
+  left: -7px !important;
+}
+
+::ng-deep .mat-form-field-label-wrapper {
+  overflow: visible !important;
+}
+
+::ng-deep .mat-input-element{
+  font-size: 20px !important;
+}
+
+::ng-deep .mat-form-field-prefix{
+  font-size: 20px !important;
+}
+
+::ng-deep .mat-form-field-infix{
+  display: inline-block !important;
+  width: auto !important;
+}
+
+mat-card{
+  width: 400px;
+}
+
+::ng-deep .mat-form-field.mat-focused .mat-form-field-underline {
+  display: none;
+}

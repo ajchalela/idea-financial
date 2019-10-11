@@ -1,0 +1,37 @@
+<mat-card>
+  <mat-card-content>
+    <div id="mainContent">
+      <div id="valuesContainer" class="values-container">
+        <div id="balanceContainer" class="value">
+          <form>
+            <mat-form-field id="balanceField" class="mat-field">
+              <span matPrefix>$</span>
+              <input matInput placeholder="Balance" value='{{balance}}' readonly />
+            </mat-form-field>
+          </form>
+        </div>
+        <div id="availableFundsContainer" class="value">
+          <form>
+            <mat-form-field class="mat-field">
+              <span matPrefix>$</span>
+              <input matInput placeholder="Available Funds" value='{{availableFunds}}' readonly />
+            </mat-form-field>
+          </form>
+        </div>
+        <div id="creditLimitContainer" class="value">
+          <form>
+            <mat-form-field class="mat-field">
+              <span matPrefix>$</span>
+              <input matInput placeholder="Credit Limit" value="{{creditLimit}}" readonly />
+            </mat-form-field>
+          </form>
+        </div>
+      </div>
+      <div id="btnContainer">
+        <button (click)="_handleDraw()" disabled={{isDrawBtnDisabled}} mat-raised-button>
+          Make A Draw
+        </button>
+      </div>
+    </div>
+  </mat-card-content>
+</mat-card>

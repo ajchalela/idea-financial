@@ -1,0 +1,40 @@
+﻿<Properties StartupConfiguration="{224005AB-5876-4685-A9D2-2CA8D6C25138}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="idea-financial-angular/appsettings.json">
+    <Files>
+      <File FileName="idea-financial-angular/ClientApp/src/app/nav-menu/nav-menu.component.ts" Line="3" Column="1" />
+      <File FileName="idea-financial-angular/ClientApp/src/app/home/home.component.html" Line="2" Column="16" />
+      <File FileName="idea-financial-angular/ClientApp/src/app/home/home.component.ts" />
+      <File FileName="idea-financial-angular/ClientApp/src/app/app.module.ts" />
+      <File FileName="idea-financial-angular/ClientApp/src/app/draw-manager/draw-manager.component.css" />
+      <File FileName="idea-financial-angular/ClientApp/src/app/draw-manager/draw-manager.component.html" />
+      <File FileName="idea-financial-angular/ClientApp/src/app/draw-manager/draw-manager.component.ts" />
+      <File FileName="idea-financial-angular/appsettings.json" Line="9" Column="1" />
+      <File FileName="idea-financial-angular/ClientApp/src/app/dashboard/dashboard.component.css" Line="44" Column="17" NotebookId="1" />
+      <File FileName="idea-financial-angular/ClientApp/src/app/app.server.module.ts" NotebookId="1" />
+      <File FileName="idea-financial-angular/ClientApp/src/app/app.component.ts" NotebookId="1" />
+      <File FileName="idea-financial-angular/ClientApp/src/app/app.component.css" NotebookId="1" />
+      <File FileName="idea-financial-angular/ClientApp/src/app/dashboard/dashboard.component.html" NotebookId="1" />
+      <File FileName="idea-financial-angular/ClientApp/src/app/dashboard/dashboard.component.ts" Line="9" Column="3" NotebookId="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="idea-financial-angular" expanded="True">
+            <Node name="idea-financial-angular" expanded="True" selected="True">
+              <Node name="ClientApp" expanded="True">
+                <Node name="src" expanded="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.idea-financial-angular PreferredExecutionTarget="/Applications/Firefox.app" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

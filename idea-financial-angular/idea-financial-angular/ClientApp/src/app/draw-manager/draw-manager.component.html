@@ -1,0 +1,54 @@
+<div id="confirmModal">
+  <div id="headerContainer">
+    <h2>
+      Confirm Credit Draw
+    </h2>
+  </div>
+  <mat-card>
+    <mat-card-content>
+      <div id="mainContent">
+    <div id="formContainer">
+      <form>
+        <div id="inputContainer">
+          <div>
+            <mat-form-field class="customer">
+              <input matInput placeholder="Customer" value="{{data.customerName}}"
+                     readonly/>
+            </mat-form-field>
+          </div>
+          <div id="valuesContainer">
+            <mat-form-field>
+              <span matPrefix>$</span>
+              <input matInput placeholder="Balance" value="{{data.newBalance}}"
+                     readonly />
+            </mat-form-field>
+            <mat-form-field>
+              <span matPrefix>$</span>
+              <input matInput placeholder="Available Funds" value="{{data.availableFunds}}" readonly />
+            </mat-form-field>
+          </div>
+          <div id="drawAmountContainer">
+            <mat-form-field id="drawAmount">
+              <span matPrefix>$</span>
+              <input matInput placeholder="Draw Amount" [(ngModel)]="drawAmount" type="number" name="drawAmount" />
+            </mat-form-field>
+          </div>
+        </div>
+      </form>
+    </div>
+    <div id="btnContainer">
+      <div class="btn">
+        <button color="primary" disabled={{isConfirmDisabled}} (click)="_handleConfirm()" mat-raised-button>
+          Confirm
+        </button>
+      </div>
+      <div class="btn">
+        <button id="declineBtn" (click)="_handleDecline()" mat-raised-button>
+          Decline
+        </button>
+      </div>
+    </div>
+  </div>
+    </mat-card-content>
+  </mat-card>
+</div>

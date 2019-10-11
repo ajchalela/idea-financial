@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="IIS Web Application Name" description="" value="idea-financial-server" tags="IisApp">
+    <parameterEntry kind="ProviderPath" scope="IisApp" match="^/Users/andreschalela/Projects/idea-financial-server/idea-financial-server/obj/Release/netcoreapp3\.0/PubTmp/Out/$" />
+  </parameter>
+</parameters>

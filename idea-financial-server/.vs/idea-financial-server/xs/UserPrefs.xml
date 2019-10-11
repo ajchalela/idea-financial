@@ -1,0 +1,34 @@
+﻿<Properties StartupConfiguration="{8138F383-243D-4F4E-91E7-138FD12A64CC}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="idea-financial-server/Properties/launchSettings.json">
+    <Files>
+      <File FileName="idea-financial-server/Program.cs" Line="4" Column="20" />
+      <File FileName="idea-financial-server/Startup.cs" Line="9" Column="37" />
+      <File FileName="idea-financial-server/Models/Customer.cs" Line="20" Column="1" />
+      <File FileName="idea-financial-server/appsettings.json" Line="16" Column="1" />
+      <File FileName="idea-financial-server/Models/CustomersDatabaseSettings.cs" Line="1" Column="1" />
+      <File FileName="idea-financial-server/Controllers/CustomersController.cs" Line="51" Column="10" />
+      <File FileName="idea-financial-server/Services/CustomerService.cs" Line="43" Column="1" NotebookId="1" />
+      <File FileName="idea-financial-server/Properties/launchSettings.json" Line="1" Column="1" NotebookId="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="idea-financial-server" expanded="True">
+            <Node name="idea-financial-server" expanded="True">
+              <Node name="Properties" expanded="True">
+                <Node name="launchSettings.json" selected="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.idea-financial-server PreferredExecutionTarget="/Applications/Firefox.app" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

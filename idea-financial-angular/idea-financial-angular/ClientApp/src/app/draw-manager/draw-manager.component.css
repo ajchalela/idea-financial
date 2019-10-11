@@ -1,0 +1,41 @@
+mat-form-field {
+  padding: 10px;
+}
+
+#inputContainer {
+  display: flex;
+  flex-direction: column;
+}
+
+#headerContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+#btnContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+
+.btn {
+  padding: 5px;
+}
+
+#declineBtn {
+  background: #F8F8F8;
+}
+
+#valuesContainer {
+  display: flex;
+  flex-direction: row;
+}
+
+#drawAmount {
+  width: 150px;
+}
+
+::ng-deep .customer.mat-form-field .mat-form-field-label {
+  left: 0px !important;
+}
